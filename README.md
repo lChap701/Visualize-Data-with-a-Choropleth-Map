@@ -5,5 +5,5 @@ A project that I created for freeCodeCamp that displays a choropleth map using D
 ## Resources
 
 [CodePen Version](https://codepen.io/lchap701/full/wvJQwPe)<br>
-[US Education Dataset](https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/for_user_education.json)
+[US Education Dataset](https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/for_user_education.json)<br>
 [US County Dataset](https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/counties.json)
