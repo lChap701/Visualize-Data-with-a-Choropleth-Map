@@ -1,0 +1,48 @@
+/* global */
+body {
+  background: #ccc;
+}
+
+svg {
+  display: block;
+  margin: auto;
+  * {
+    font-family: "Merriweather", serif;
+  }
+}
+
+.state {
+  fill: none;
+  stroke: #000;
+  stroke-width: 0.25px;
+  stroke-linejoin: round;
+}
+
+
+/* map */
+#map {
+  font-family: "Merriweather", serif;
+  padding: 10px;
+  background: #fff;
+  box-shadow: 5px 5px 50px 5px #000;
+  overflow: auto;
+  #title,
+  #description {
+    text-align: center;
+  }
+}
+
+/* tooltip */
+#tooltip {
+  font-family: "Merriweather Sans", sans-serif;
+  position: absolute;
+  background: #000;
+  color: #fff;
+  padding: 0.5em;
+  text-align: center;
+  font-size: 0.9em;
+  
+  p {
+    margin: 5px 0 0;
+  }
+}
