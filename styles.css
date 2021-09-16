@@ -1,0 +1,51 @@
+/* global */
+body {
+  background: #ccc;
+}
+
+svg {
+  display: block;
+  margin: auto;
+}
+
+svg * {
+  font-family: "Merriweather", serif;
+}
+
+.state {
+  fill: none;
+  stroke: #000;
+  stroke-width: 0.25px;
+  stroke-linejoin: round;
+}
+
+/* map */
+#map {
+  font-family: "Merriweather", serif;
+  padding: 10px;
+  background: #fff;
+  -webkit-box-shadow: 5px 5px 50px 5px #000;
+          box-shadow: 5px 5px 50px 5px #000;
+  overflow: auto;
+}
+
+#map #title,
+#map #description {
+  text-align: center;
+}
+
+/* tooltip */
+#tooltip {
+  font-family: "Merriweather Sans", sans-serif;
+  position: absolute;
+  background: #000;
+  color: #fff;
+  padding: 0.5em;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+#tooltip p {
+  margin: 5px 0 0;
+}
+/*# sourceMappingURL=styles.css.map */
